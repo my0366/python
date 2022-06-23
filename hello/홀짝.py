@@ -6,7 +6,6 @@ result = []
 
 def call(number):
     for i in range(0,number):
-        
         print(f'{i+1}번째 숫자 : {random_numbers[i]}')
         answer = input("홀 또는 짝 : ")
         b = random_numbers[i] % 2 == 0
